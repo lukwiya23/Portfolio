@@ -1,0 +1,110 @@
+{
+  "main": {
+    "name": "Bonnie Lukwiya",
+    "occupation": "Frontend Developer",
+    "description": "I build and scale web applications in React-Redux and Next.js ",
+    "image": "profilepic.jpg",
+    "bio": "Hello there, Bonnie here ! I am a Javascript / TypeScript Developer with 2+ years of experience developing products and solutions that help businesses, start-ups, and teams to thrive. I design, build, improve ideas. I work to make every project meet the benchmarks listed by the client.",
+    "contactmessage": "Get in touch with me below.",
+    "email": "luk23bonnie8@gmail.com",
+    "phone": "+256753163382",
+    "address": {
+      "street": "Uganda",
+      "city": "Kampala"
+     
+      
+    },
+    "website": "",
+    "resumedownload": "Images/resume.pdf",
+    "social": [
+     
+      
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/lukwiya-bonnie-683030189/",
+        "className": "fa fa-linkedin"
+      },
+      {
+        "name": "instagram",
+        "url": "https://www.instagram.com/pureheroine______/",
+        "className": "fa fa-instagram"
+      },
+      {
+        "name": "github",
+        "url": "https://github.com/lukwiya23",
+        "className": "fa fa-github"
+      }
+    ]
+  },
+  "resume": {
+    "skillmessage": "My Programming Language Proficiency",
+    "education": [
+      {
+        "school": "APTECH COMPUTER EDUCATION",
+        "degree": "Software Engineering",
+        "graduated": "July 2021",
+        "description": "Graduated with First Class Honours"
+      }
+    ],
+    "work": [
+      {
+        "company": ".",
+        "title": "Freelance",
+        "years": "May 2019 - Present",
+        "description": "Worked with a number of clients over the years while cloning all the apps possible on the side. On my way to clone the universe like Thanos with my infinity stones😁 "
+      }
+    ],
+    "skills": [
+      {
+        "name": "ReactJs",
+        "level": "100%"
+      },
+      {
+        "name": "Python",
+        "level": "85%"
+      },
+      {
+        "name": "Git",
+        "level": "70%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "99%"
+      },
+      {
+        "name": "Web Development",
+        "level": "95%"
+      },
+      {
+        "name": "Mobile App Dev't(Flutter)",
+        "level": "79%"
+      }
+    ]
+  },
+  "portfolio": {
+    "projects": [
+      {
+        "title": "Freelance site (React JS & Python)",
+        "category": "Web Application",
+        "image": "freelance.png",
+        "url": "https://freelancr-app.herokuapp.com/"
+      },
+      {
+        "title": "Disney Streaming Site (React JS & Redux)",
+        "category": "",
+        "image": "disney.png",
+        "url": "https://disney-clone-d1e27.firebaseapp.com/"
+      }
+    ]
+  },
+  "testimonials": {
+    "testimonials": [
+      {
+        "text": "I’m a scientist; because I invent, transform, create, and destroy for a living, and when I don’t like something about the world, I change it.",
+        "user": "Rick in Rick & Morty"
+      }
+      
+    ]
+  } 
+ 
+}
