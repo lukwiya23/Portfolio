@@ -22,7 +22,7 @@ const Footer = ({ data }) => {
           <ul className="copyright">
             <li>
               Copyright 2021 {" "}
-              <a title="PAPA" href="#">
+              <a title="PAPA" href="github.com/lukwiya23">
                 B O N N I E. L
               </a>
             </li>
