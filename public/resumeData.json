@@ -56,7 +56,15 @@
     ],
     "skills": [
       {
-        "name": "ReactJs",
+        "name": "React Js",
+        "level": "100%"
+      },
+      {
+        "name": "Next Js",
+        "level": "100%"
+      },
+      {
+        "name": "Node Js",
         "level": "100%"
       },
       {
@@ -67,22 +75,21 @@
         "name": "Git",
         "level": "70%"
       },
+      
       {
-        "name": "JavaScript",
-        "level": "99%"
-      },
-      {
-        "name": "Web Development",
-        "level": "95%"
-      },
-      {
-        "name": "Mobile App Dev't(Flutter)",
+        "name": "Flutter",
         "level": "79%"
       }
     ]
   },
   "portfolio": {
     "projects": [
+      {
+        "title": "Airbnb Clone",
+        "category": "Web Application",
+        "image": "air.png",
+        "url": "https://airbnb-62uf59t64-lukwiya23.vercel.app/"
+      },
       {
         "title": "Freelance site (React JS & Python)",
         "category": "Web Application",
