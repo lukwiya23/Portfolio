@@ -60,14 +60,14 @@ const Header = ({ data }) => {
 
       <div className="row banner">
         <div className="banner-text">
-          <h1 className="responsive-headline">
-            <TypeWriter typing={0.5}>{name ? `I'm ${name}.` : null}</TypeWriter>
+          <h1 className="responsive-headline grow">
+            <TypeWriter typing={1}>{name ? ` ${name}.` : null}</TypeWriter>
           </h1>
           <h3>
             Based in {city}. <span>{occupation}</span>. {description}.
           </h3>
           <hr />
-          <ul className="social">{networks}</ul>
+          <ul className="social grow">{networks}</ul>
         </div>
       </div>
 
@@ -81,3 +81,4 @@ const Header = ({ data }) => {
 };
 
 export default Header;
+

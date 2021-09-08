@@ -1,9 +1,9 @@
 {
   "main": {
-    "name": "Bonnie Lukwiya",
+    "name": "Bonnie. L",
     "occupation": "Frontend Developer",
     "description": "I build and scale web applications in React-Redux and Next.js ",
-    "image": "profilepic.jpg",
+    "image": "profilepic.jpeg",
     "bio": "Hello there, Bonnie here ! I am a Javascript / TypeScript Developer with 2+ years of experience developing products and solutions that help businesses, start-ups, and teams to thrive. I design, build, improve ideas. I work to make every project meet the benchmarks listed by a client I'm in business with.",
     "contactmessage": "Get in touch with me below.",
     "email": "luk23bonnie8@gmail.com",
@@ -85,20 +85,26 @@
   "portfolio": {
     "projects": [
       {
+        "title": "Hulu Streaming Site",
+        "category": "React & Next Js",
+        "image": "hulu.png",
+        "url": "https://hulu-pearl.vercel.app/"
+      },
+      {
         "title": "Airbnb Clone",
-        "category": "Web Application",
+        "category": "React, Next Js & Mapbox",
         "image": "air.png",
         "url": "https://airbnb-62uf59t64-lukwiya23.vercel.app/"
       },
       {
-        "title": "Freelance site (React JS & Python)",
-        "category": "Web Application",
+        "title": "Freelance site",
+        "category": " (React JS & Python)",
         "image": "freelance.png",
         "url": "https://freelancr-app.herokuapp.com/"
       },
       {
-        "title": "Disney Streaming Site (React JS & Redux)",
-        "category": "",
+        "title": "Disney Streaming Site ",
+        "category": "(React JS & Redux)",
         "image": "disney.png",
         "url": "https://disney-clone-d1e27.firebaseapp.com/"
       }

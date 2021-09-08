@@ -33,7 +33,7 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(https://images.pexels.com/photos/1679719/pexels-photo-1679719.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat top center;
+   background: #161415 url(https://wallpaperaccess.com/download/astronaut-aesthetic-1366612);
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    text-align: center;
@@ -58,22 +58,25 @@ header .banner {
 
 header .banner-text { width: 100%; }
 header .banner-text h1 {
-   font: 90px/1.1em 'opensans-bold', sans-serif;
-   color: #fff;
+   font: 190px/1.1em 'opensans-bold', sans-serif;
+   color: rgb(197, 15, 15);
+   text-decoration: line-through;
    letter-spacing: -2px;
    margin: 0 auto 18px auto;
    text-shadow: 0px 1px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #ffffff;
    margin: 0 auto;
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
 header .banner-text h3 span,
 header .banner-text h3 a {
-   color: #fff;
+   color: rgb(170, 218, 40);
+   
+   letter-spacing: 1.2;
 }
 header .banner-text hr {
    width: 60%;
@@ -81,6 +84,10 @@ header .banner-text hr {
    border-color: #2F2D2E;
    border-color: rgba(150, 150, 150, .1);
 }
+
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); cursor: pointer; }
 
 /* header social links */
 header .social {
@@ -95,7 +102,9 @@ header .social li {
    padding: 0;
 }
 header .social li a { color: #fff; }
-header .social li a:hover { color: #11ABB0; }
+header .social li a:hover { 
+   color: #b01119;
+ }
 
 /* scrolldown link */
 header .scrolldown a {
@@ -187,7 +196,7 @@ ul#nav li.current a { color: red; }
 /* ------------------------------------------------------------------ */
 
 #about {
-   background: #2B2B2B;
+   background: #000000;
    padding-top: 96px;
    padding-bottom: 66px;
    overflow: hidden;
@@ -207,8 +216,8 @@ ul#nav li.current a { color: red; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 160px;
+   height: 160px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
@@ -645,7 +654,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(https://wallpapershome.com/images/pages/pic_h/20316.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -794,7 +803,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #contact {
-   background: #191919;
+   background: #000000;
    padding-top: 96px;
    padding-bottom: 102px;
    color: #636363;
@@ -857,12 +866,15 @@ call-to-action .button {
    font-size: 15px;
    line-height: 24px;
    width: 65%;
+   transition: .6s ease-out;
+   border-radius: 25px;
 }
 #contact input:focus,
 #contact textarea:focus,
 #contact select:focus {
 	color: #fff;
-	background-color: #11ABB0;
+	background-color: #b01111;
+   border-radius: 50px;
 }
 #contact button.submit {
 	text-transform: uppercase;
